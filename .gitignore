@@ -1,0 +1,16 @@
+# Eclipse-related files and directories
+.settings/
+.classpath
+.project
+
+# Maven build directories
+/target/
+ 
+# IDE-specific directories
+/.vscode/
+ 
+# Compiled classes
+*.class
+ 
+# Maven settings file
+maven-settings.xml
