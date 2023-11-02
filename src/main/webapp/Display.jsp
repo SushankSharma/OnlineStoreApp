@@ -26,17 +26,19 @@ body {
 
 .container {
 	width: 80%;
-	max-width: 1200px;
+	max-width: 1024px;
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	margin: 20px;
 	padding: 20px;
+	border-radius: 20px;
 }
 
 .header {
 	font-size: 36px;
+	text-align: center;
 	color: #333;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	/* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); */
 	margin-bottom: 20px;
 }
 
@@ -50,13 +52,13 @@ th, td {
 	border: 1px solid #333;
 	padding: 10px;
 	text-align: center;
-	background-color: #FF9935;
+	background-color: #f0f0f0;
 }
 
 th {
 	background-color: #FF9900;
 	color: black;
-	font: bold;
+	font-weight: bold;
 }
 
 a {
@@ -65,8 +67,8 @@ a {
 	background: #ff9900;
 	color: #fff;
 	border-radius: 5px;
-	padding: 5px 10px;
-	font-size: 16px;
+	padding: 5px 12px;
+	font-size: 18px;
 	transition: background 0.3s;
 }
 
@@ -75,6 +77,10 @@ a:hover {
 	background: #ffcc66;
 	color: black;
 }
+
+.logo {
+	margin: 10px 10px;
+}
 </style>
 </head>
 <body>
@@ -82,6 +88,12 @@ a:hover {
 		<%
 			ArrayList<Product> al = (ArrayList) request.getAttribute("data");
 		%>
+
+		<div class="logo">
+			<img
+				src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2048px-Amazon_icon.svg.png"
+				alt="Amazon Logo" width="80">
+		</div>
 
 		<h1 class="header">PRODUCTS AVAILABLE</h1>
 		<table>

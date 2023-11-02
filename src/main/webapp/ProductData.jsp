@@ -33,7 +33,8 @@ body {
 
 .header {
 	font-size: 24px;
-	font-weight: bold; color : #333;
+	font-weight: bold;
+	color: #333;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -98,12 +99,21 @@ body {
 	background: #ffcc66;
 	color: black;
 }
+
+.logo {
+	margin: 20px 0;
+}
 </style>
 </head>
 <body>
 	<div class="container">
 		<div class="nav">
 			<a href="Welcome.jsp">Back/Home</a>
+		</div>
+		<div class="logo">
+			<img
+				src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2048px-Amazon_icon.svg.png"
+				alt="Amazon Logo" width="80">
 		</div>
 		<div class="header">ENTER PRODUCT DETAILS:</div>
 		<form class="form" action="save" method="">

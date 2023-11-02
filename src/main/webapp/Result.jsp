@@ -24,14 +24,23 @@ body {
 
 .container {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    max-width: 600px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+	flex-direction: column;
+	align-items: center; justify-content : center; width : 80%; max-width :
+	600px; background-color : #fff; box-shadow : 0 0 10px rgba( 0, 0, 0,
+	0.2);
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	max-width: 600px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	justify-content: center;
+	width: 80%;
+	max-width: 600px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .header {
@@ -68,6 +77,10 @@ a:hover {
 	background: #ffcc66;
 	color: black;
 }
+
+.logo {
+	margin: 20px 0;
+}
 </style>
 </head>
 <body>
@@ -75,6 +88,12 @@ a:hover {
 		<%
 			String result = (String) request.getAttribute("msg");
 		%>
+
+		<div class="logo">
+			<img
+				src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2048px-Amazon_icon.svg.png"
+				alt="Amazon Logo" width="80">
+		</div>
 
 		<h1><%=result%></h1>
 
