@@ -1,0 +1,17 @@
+# Java files
+*.java linguist-language=Java
+
+# JSP files
+*.jsp linguist-language=HTML
+
+# HTML files (for JSP content)
+*.html linguist-language=HTML
+
+# XML files
+*.xml linguist-language=XML
+
+# CSS files
+*.css linguist-language=CSS
+
+# JavaScript files
+*.js linguist-language=JavaScript
