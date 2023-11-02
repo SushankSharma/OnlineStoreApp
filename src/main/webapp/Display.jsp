@@ -103,6 +103,8 @@ a:hover {
 				<th>Product Price</th>
 				<th>Product Brand</th>
 				<th>Product Quantity</th>
+				<th>Remove Item</th>
+				<th>Update Item</th>
 			</tr>
 
 			<%
@@ -115,6 +117,9 @@ a:hover {
 				<td><%=p.getPrice()%></td>
 				<td><%=p.getBrand()%></td>
 				<td><%=p.getQuantity()%></td>
+				<td><a href="delete?id=<%=p.getProductId()%>">Remove</a></td>
+				<td><a href="edit?id=<%=p.getProductId()%>">Edit</a></td>
+
 			</tr>
 			<%
 				}

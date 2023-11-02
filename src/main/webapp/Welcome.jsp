@@ -109,8 +109,8 @@ body {
 		<!-- <h1 class="header">Amazon.in</h1>  -->
 		<div class="tagline">Your Online Store for Everything You Need</div>
 		<div class="buttons">
-			<a class="action-button" href="ProductData.jsp">Add Product</a> <a
-				class="action-button" href="getall">View All</a>
+			<a class="action-button" href="ProductData.jsp">Add Product</a> 
+			<a class="action-button" href="getall">View All</a>
 		</div>
 	</div>
 </body>
