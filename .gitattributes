@@ -2,7 +2,7 @@
 *.java linguist-language=Java
 
 # JSP files
-*.jsp linguist-language=HTML
+*.jsp linguist-language=JSP
 
 # HTML files (for JSP content)
 *.html linguist-language=HTML
